@@ -24,29 +24,35 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     .outer_rectangle {
             width: 200px; /* Width of the rectangle */
-            height: 280px; /* Height of the rectangle */
+            height: 400px; /* Height of the rectangle */
             background-color: white; /* Background color */
             border: 2px solid white;
             margin-bottom: 20px; 
             border-radius: 15px;
         }
         .image {
-            width: 196px; /* Width of the rectangle */
-            height: 160px; /* Height of the rectangle */ 
-            border: 2px solid white;
+            width: 100%; 
+            height: auto; 
             border-radius: 15px;
         }
         .text{
-          width: 195px; /* Width of the rectangle */
-          height: 160px;
+          margin-top: 15px; 
+          font-family: Arial, sans-serif; 
+          font-size: 14px; 
+          line-height: 1.5;
+          color: #4a4a4a; 
         }
+    .text b {
+      display: block; 
+      margin-bottom: 10px; 
+    }
   </style>
 </head>
 <body>
   <div class="outer_rectangle">
-      <img class="image" src="image-qr-code.png", alt="Sample">
+      <img class="image" src="/images/image-qr-code.png", alt="Sample">
       <div class="text"><b>Improve your front-end skills by building projects</b>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+        <br>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
   </div>
   
   
